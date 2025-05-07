@@ -15,4 +15,4 @@ RUN chmod +x /usr/local/bin/helm
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]:
+ENTRYPOINT ["/entrypoint.sh"]
