@@ -14,4 +14,5 @@ RUN wget https://get.helm.sh/helm-v3.8.0-linux-amd64.tar.gz -O - | tar -xzO linu
 RUN chmod +x /usr/local/bin/helm
 
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]:
